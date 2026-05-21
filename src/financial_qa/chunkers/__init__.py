@@ -1,9 +1,13 @@
 from financial_qa.chunkers.sliding_window import SlidingWindowChunker
 from financial_qa.chunkers.semantic import SemanticChunker
+from financial_qa.chunkers.synthetic_summary import SummaryChunker
 from financial_qa.chunkers.table_aware_recursive import TableAwareRecursiveChunker
+from financial_qa.chunkers.synthetic_table_row_to_text import TableRowToTextChunker
 
 __all__ = [
     "SlidingWindowChunker",
     "SemanticChunker",
+    "SummaryChunker",
     "TableAwareRecursiveChunker",
+    "TableRowToTextChunker",
 ]
