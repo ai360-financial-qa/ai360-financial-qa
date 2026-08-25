@@ -183,7 +183,7 @@ class TableSplitChunker(BaseChunker):
     @staticmethod
     def _parse_md_table(table_text: str) -> tuple[str | None, str | None, list[str]]:
         """Return (header_line, separator_line, data_rows) for a Markdown | table."""
-        lines = [l for l in table_text.splitlines() if l.strip()]
+        lines = [line for line in table_text.splitlines() if line.strip()]
         if not lines:
             return None, None, []
         header = lines[0]

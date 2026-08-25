@@ -6,7 +6,6 @@ import re
 import random
 import ssl
 import time
-import uuid
 from typing import Any, Optional
 
 import aiohttp
