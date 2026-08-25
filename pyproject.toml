@@ -12,6 +12,7 @@ dependencies = [
     "dotenv>=0.9.9",
     "einops>=0.8.2",
     "gigachat>=0.2.1",
+    "httpx>=0.28.0",
     "ipycache>=0.1.4",
     "jupyter>=1.1.1",
     "langchain-text-splitters>=1.1.2",
@@ -36,6 +37,8 @@ dev = [
 financial-qa = "financial_qa.cli:main"
 financial-qa-mcp = "financial_qa.agent.mcp_server:main"
 financial-qa-agent = "financial_qa.agent.agent_loop:main"
+financial-qa-headers = "financial_qa.headers.agent_loop:main"
+financial-qa-headers-precalc = "financial_qa.headers.precalc:main"
 
 [build-system]
 requires = ["hatchling"]
