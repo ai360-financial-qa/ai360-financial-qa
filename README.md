@@ -104,6 +104,15 @@ pytest
 ruff check src tests
 ```
 
+## Authors
+
+- Maksim Bessolitsyn
+- Igor Elchinov
+- Timofey Khodykin
+- Olga Pospelova
+- Timofey Ravnushkin
+- Yaroslav Semenyuk
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
