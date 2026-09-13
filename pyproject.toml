@@ -5,6 +5,14 @@ description = "Retrieval-augmented question answering over Russian bank annual r
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 license = { file = "LICENSE" }
+authors = [
+    { name = "Maksim Bessolitsyn", email = "bottleofjuice@yandex.ru" },
+    { name = "Igor Elchinov", email = "igorelchinov@gmail.com" },
+    { name = "Timofey Khodykin", email = "timofeykhodykin@gmail.com" },
+    { name = "Olga Pospelova", email = "149101065+psplvlg@users.noreply.github.com" },
+    { name = "Timofey Ravnushkin", email = "tievravnushkin@edu.hse.ru" },
+    { name = "Yaroslav Semenyuk", email = "150376695+hopele555@users.noreply.github.com" },
+]
 dependencies = [
     "accelerate==1.13.0",
     "aiohttp>=3.13.5",
